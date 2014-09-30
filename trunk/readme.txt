@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== WP Admin Category Search ===
 Contributors: atillaordog
 Donate link: http://attilaordog.wordpress.com/contribution/
 Tags: categories
