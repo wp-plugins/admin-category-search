@@ -18,6 +18,8 @@ Simple as the sun, using easy JS.
 
 Especially useful when there are a lot of categories, like in case of a shop.
 
+It needs jQuery to run !
+
 == Installation ==
 
 To install the plugin, simply install it from the directory, or use the following steps
@@ -25,3 +27,7 @@ To install the plugin, simply install it from the directory, or use the followin
 1. Upload the folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Done
+
+== Screenshots ==
+
+1. This is how it looks. After you entered the keyword and pushed search, simply go back to the first tab to see the found results. 
