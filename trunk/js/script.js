@@ -18,7 +18,7 @@ var adminSearch = {
 			jQuery(this).attr('id', parent_id+'-search-tab');
 			jQuery(this).attr('href', '#'+parent_id+'-search');
 			
-			var search_div = '<div id="'+parent_id+'-search" style="display:none;" class="tabs-panel">';
+			var search_div = '<div id="'+parent_id+'-search" style="display:none;padding-top:0.9em;" class="tabs-panel">';
 			search_div += '<input type="text" name="'+parent_id+'-search-field" id="'+parent_id+'-search-field" class="meta-box-search-field" />';
 			search_div += '<button type="button" id="'+parent_id+'-search-button" class="meta-box-search-button">Go</button>';
 			search_div += '<ul id="'+parent_id+'-search-results" class="meta-box-search-results"></ul>';
@@ -58,6 +58,7 @@ var adminSearch = {
 			e.preventDefault();
 			
 			jQuery(this).parents('.categorydiv').first().find('.categorychecklist li').show();
+			jQuery(this).parents('.categorydiv').find('.meta-box-search-field').val('');
 		});
 	}
 };
