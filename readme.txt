@@ -20,6 +20,9 @@ Especially useful when there are a lot of categories, like in case of a shop.
 
 It needs jQuery to run !
 
+Now you can find this plugin on my site: http://gadratilprogramming.byethost7.com/shop/wordpress-plugins/wp-admin-category-search/
+Also, the PRO version is out, featuring autocomplete functionality: http://gadratilprogramming.byethost7.com/shop/wordpress-plugins/wp-admin-category-search-pro/
+
 == Installation ==
 
 To install the plugin, simply install it from the directory, or use the following steps
