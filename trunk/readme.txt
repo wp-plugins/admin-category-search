@@ -3,7 +3,7 @@ Contributors: atillaordog
 Donate link: http://attilaordog.wordpress.com/contribution/
 Tags: categories
 Requires at least: 3.0.1
-Tested up to: 4.1.1
+Tested up to: 4.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Stable Tag: trunk
@@ -40,3 +40,6 @@ To install the plugin, simply install it from the directory, or use the followin
 = 0.2 =
 * Made the input field look nicer
 * Reset link now resets search field, too
+
+= 0.3 =
+* Made the pulgin compatible with WP 4.2

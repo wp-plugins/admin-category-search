@@ -31,7 +31,17 @@ var adminSearch = {
 			jQuery(this).parents('.categorydiv').first().append('<p><a href="javascript:void(0);" class="meta-box-show-all-link">Reset Search Results</a></p>');
 		});
 		
-		jQuery('.meta-box-search-button').live('click', function(e){
+		jQuery('body').on('click', '.search-tab', function(e){
+			e.preventDefault();
+			
+			jQuery(this).parents('.categorydiv').find('.category-tabs li').removeClass('tabs');
+			jQuery(this).parent().addClass('tabs');
+			
+			jQuery(this).parents('.categorydiv').find('.tabs-panel').hide();
+			jQuery( jQuery(this).attr('href') ).show();
+		});
+		
+		jQuery('body').on('click', '.meta-box-search-button', function(e){
 			e.preventDefault();
 			
 			var s = jQuery(this).siblings('.meta-box-search-field').val();
@@ -54,7 +64,7 @@ var adminSearch = {
 			}
 		});
 		
-		jQuery('.meta-box-show-all-link').live('click', function(e){
+		jQuery('body').on('click', '.meta-box-show-all-link', function(e){
 			e.preventDefault();
 			
 			jQuery(this).parents('.categorydiv').first().find('.categorychecklist li').show();

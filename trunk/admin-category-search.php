@@ -4,7 +4,7 @@
 Plugin Name: Admin category search
 Plugin URI: https://github.com/atillaordog/wp-admin-search
 Description: This plugin adds a search tab to the category boxes on admin add / edit pages, thus making it easy to search a category in a very long list
-Version: 0.2
+Version: 0.3
 Author: Atilla Ordog
 Author URI: 
 */
